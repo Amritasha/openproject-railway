@@ -27,7 +27,7 @@ Set these after deployment in your Railway project dashboard:
 |----------|----------|-------------|
 | `DATABASE_URL` | Auto | Filled automatically from the Postgres plugin |
 | `SECRET_KEY_BASE` | **Yes** | Random secret — generate with `openssl rand -hex 64` |
-| `OPENPROJECT_HOST__NAME` | **Yes** | Your Railway public domain, e.g. `your-app.up.railway.app` |
+| `OPENPROJECT_HOST__NAME` | Auto | Set from `${{RAILWAY_PUBLIC_DOMAIN}}` — no action needed |
 | `PORT` | Pre-set | `8080` — do not change |
 | `OPENPROJECT_WEB_PORT` | Pre-set | `8080` — do not change |
 | `RAILS_ENV` | Pre-set | `production` |
