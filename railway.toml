@@ -1,9 +1,16 @@
 [build]
-builder = "dockerfile"
+builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
 healthcheckPath = "/health"
 healthcheckTimeout = 300
-restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 3
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[variables]
+PORT = "8080"
+RAILS_ENV = "production"
+OPENPROJECT_WEB_PORT = "8080"
+OPENPROJECT_HTTPS = "true"
+IMAP_ENABLED = "false"
