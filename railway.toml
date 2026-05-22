@@ -9,6 +9,7 @@ restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
 
 [variables]
+DATABASE_URL = "${{Postgres.DATABASE_URL}}"
 PORT = "8080"
 RAILS_ENV = "production"
 OPENPROJECT_WEB_PORT = "8080"
