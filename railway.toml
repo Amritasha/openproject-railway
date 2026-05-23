@@ -10,7 +10,7 @@ restartPolicyMaxRetries = 10
 
 [variables]
 DATABASE_URL = "${{Postgres.DATABASE_URL}}"
-PORT = "8080"
+PORT = "80"
 RAILS_ENV = "production"
 OPENPROJECT_HOST__NAME = "${{RAILWAY_PUBLIC_DOMAIN}}"
 OPENPROJECT_HTTPS = "true"
