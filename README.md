@@ -1,6 +1,6 @@
 # OpenProject on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https://github.com/Amritasha/openproject-railway&plugins[]=postgresql)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/zUWsox)
 
 Self-hosted Jira alternative — tasks, Gantt charts, time tracking & wikis.
 
