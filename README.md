@@ -8,7 +8,7 @@ Self-hosted Jira alternative — tasks, Gantt charts, time tracking & wikis.
 
 ## What's included
 
-- **OpenProject 14** — all-in-one image (web + background workers + cron)
+- **OpenProject 17** — contains just the application image and application server used for starting with an external database (web + background workers + cron)
 - **PostgreSQL** — primary database (Railway plugin)
 
 No Redis needed — OpenProject uses Postgres-backed job queues for background processing.
@@ -73,7 +73,7 @@ FOG_DIRECTORY=your-bucket-name
 The image version is pinned in [`Dockerfile`](Dockerfile). To upgrade:
 
 ```dockerfile
-FROM openproject/openproject:15
+FROM openproject/openproject:18-slim
 ```
 
 Commit, push, and Railway redeploys. Migrations run automatically on startup.
