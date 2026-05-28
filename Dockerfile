@@ -1,1 +1,1 @@
-FROM openproject/openproject:14
+FROM openproject/openproject:17-slim
